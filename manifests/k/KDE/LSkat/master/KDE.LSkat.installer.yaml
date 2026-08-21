@@ -6,17 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: lskat
+ReleaseDate: 2026-07-29
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/lskat/master/windows/lskat-master-889-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: F1E4F501139EDA32B035316110A1B0B4C84FC0A8C37C5B3D7D794F42F18CC984
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/lskat/master/windows/lskat-master-930-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: C94022CF4B77BA5561FE5F6B5DD38F72D4B81E87511EB28B286A059535D7BF1D
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/lskat/master/windows/lskat-master-889-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: F1E4F501139EDA32B035316110A1B0B4C84FC0A8C37C5B3D7D794F42F18CC984
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/lskat/master/windows/lskat-master-930-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: C94022CF4B77BA5561FE5F6B5DD38F72D4B81E87511EB28B286A059535D7BF1D
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer

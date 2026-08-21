@@ -6,17 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: kolf
+ReleaseDate: 2026-07-28
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kolf/master/windows/kolf-master-1002-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 8924EBC5440C7C1899527D94871B78199761101100B1A1A009932C073AA07B5B
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kolf/master/windows/kolf-master-1038-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 748B04BA534DF54F4B2E3A9FCFF1FE9D01540B70A88AE8B33609859C802043A9
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kolf/master/windows/kolf-master-1002-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 8924EBC5440C7C1899527D94871B78199761101100B1A1A009932C073AA07B5B
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kolf/master/windows/kolf-master-1038-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 748B04BA534DF54F4B2E3A9FCFF1FE9D01540B70A88AE8B33609859C802043A9
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
